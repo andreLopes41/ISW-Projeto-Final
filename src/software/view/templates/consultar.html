@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h2 class="mb-4">Consultar Senha</h2>
+        <form method="POST" action="/consultar">
+            <div class="mb-3">
+                <label for="domain" class="form-label">Domínio</label>
+                <input type="text" class="form-control" id="domain" name="domain" required>
+            </div>
+            <div class="mb-3">
+                <label for="access_key" class="form-label">Chave de Acesso</label>
+                <input type="password" class="form-control" id="access_key" name="access_key" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Consultar Senha</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

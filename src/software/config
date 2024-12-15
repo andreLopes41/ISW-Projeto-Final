@@ -1,0 +1,6 @@
+[DEFAULT]
+user=SEU USER OCID
+fingerprint=SEU FINGER PRINT
+tenancy=SEU OCID TENANCY
+region=SUA_REGIAO
+key_file= ./private_key.pem
